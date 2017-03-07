@@ -3,6 +3,7 @@
 import sys
 import frida
 import codecs
+from util import shell
 from pwn import *
 
 class Util:
