@@ -1,6 +1,7 @@
 import cmd
+import sys
 
-class SHELL(cmd.Cmd):
+class Shell(cmd.Cmd):
     """Simple command processor example."""
     
     def do_greet(self, person):
@@ -18,4 +19,4 @@ class SHELL(cmd.Cmd):
         return True
 
 if __name__ == '__main__':
-    HelloWorld().cmdloop()
+    Shell().cmdloop()
